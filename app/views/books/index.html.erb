@@ -3,7 +3,7 @@
   <ol>
     <% @books.each do |book| %>
       <li>
-        <strong><%= book.title %></strong> by <%= book.author.name %>
+        <strong><%= book.title %></strong> by <%= book.author.name %> <%#= book.name %>
       </li>
     <% end %>
   </ol>
